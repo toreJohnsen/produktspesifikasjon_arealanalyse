@@ -3,3 +3,4 @@ ogc_feature_api: https://kos-pygeoapi.atkv3-dev.kartverket.cloud/collections
 output_directory: produktspesifikasjon
 product_slug: admenheter
 updated: 2025-01-01
+xmi-model:
