@@ -112,6 +112,10 @@ Framstille den offisielle kommuneinndelingen.
 
 ### Datamodell
 
+
+
+
+
 ![Admenheter feature catalogue](admenheter_feature_catalogue.png)
 
 #### Fylker
@@ -1787,7 +1791,7 @@ Egenskaper
 
 **Standardversjon**: 2003
 
-**Metadatadato**: 2025-11-14
+**Metadatadato**: 2025-11-26
 
 **språk**: nor
 
