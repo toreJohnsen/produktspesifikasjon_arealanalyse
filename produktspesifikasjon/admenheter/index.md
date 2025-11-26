@@ -1,11 +1,11 @@
 ---
-title: "Administrative enheter kommuner"
-updated: "2025-01-01"
-organization: "Kartverket"
-logo: "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png"
+title: "Nasjonalt grunnkart for arealanalyse (Testversjon 2)"
+updated: "2025-11-26"
+organization: "Statistisk sentralbyrå"
+logo: "https://register.geonorge.no/data/organizations/971526920_SSB_liten.png"
 ---
 
-# Produktspesifikasjon: Administrative enheter kommuner
+# Produktspesifikasjon: Nasjonalt grunnkart for arealanalyse (Testversjon 2)
 
 ## Innledning, historikk og endringslogg
 
@@ -46,23 +46,23 @@ XSD: XML Schema Definition
 
 ### Unik identifisering
 
-041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
+28c28e3a-d88f-4a34-8c60-5efe6d56a44d
 
 #### Fullstendig navn
 
-Administrative enheter kommuner
+Nasjonalt grunnkart for arealanalyse (Testversjon 2)
 
 #### Versjon
 
-2006-07-01
+2024-02-13
 
 ### Referansedato
 
-2025-07-04
+2025-06-30
 
 ### Ansvarlig organisasjon
 
-Kartverket
+Statistisk sentralbyrå
 
 ### Språk
 
@@ -70,23 +70,50 @@ nor
 
 ### Hovedtema
 
-Kommune, Administrativ inndeling, Administrative grenser, Kommunegrenser, Fylkesgrenser, Riksgrense, ABAS, Norge fastland, Administrative enheter, Det offentlige kartgrunnlaget, Inspire, geodataloven, Norge digitalt, beredskapsbase, dataNorgeNo, fellesDatakatalog, Basis geodata, Norge
+Grunnkart, Arealregnskap, Arealstatistikk, Økosystemtyper, Arealanalyse, ØkologiskGrunnkart
 
 ### Temakategori
 
-Administrative grenser
+
 
 ### Sammendrag
 
-Datasettet viser kommuneinndelinga i landet med de mest nøyaktige grensene som er registrert digitalt og som er samlet i ett datasett. Datasettet har referansedato 1.7.2025, og er oppdatert med overføring av et areal mellom Sel og Vågå ved Liaskarven - Rudihøe, i tillegg til ei retting av kommunegrensa mellom Stavanger og Sola ved Liapynten.
- 
-Flatene inneholder egenskaper som forteller om offisielle kommunenumre. De offisielle norske, samiske og kvenske navnene for kommunene er hentet fra SSR. I tillegg finnes informasjon om samiske forvaltningsområder.
+Nasjonalt grunnkart for arealanalyse er tilgjengelig som Testversjon 2. Grunnkartet er utviklet i samarbeid mellom NIBIO, SSB, Kartverket og Miljødirektoratet, og er ment som et felles datagrunnlag for ulike typer arealanalyser.
 
-Geodataene er fra nasjonal inndelingsbase, som er en del av matrikkelen. Ved overgang til ny forvaltningsløsning, ble det også gjort endringer i UML-modellen.
+- - -
+Oppdateringer og feilretting! 
+
+Nye filer ble publisert 30. juni (ca. klokka 1500). Det er rettet opp i topologifeil, men det gjenstår noen feil i enkelte kommuner og fylker i enkelte projeksjoner og formater. De berørte kommunene og fylkene gjengitt med fylkes- og kommunenummer er:  
+
+UTM GML: 46, 50, 55, 56, 1806,1815, 4642, 4644
+
+UTM FGDB: 18, 40, 46, 50, 55, 56
+
+Geografisk (ETRS89) GML: 33, 42, 46, 50, 55, 56, 4642, 4644, 5056
+
+Geografisk (ETRS89) FGDB: 40, 50, 55, 56, 5060
+
+Disse filene vil dessverre ikke bli rettet før årsversjonen publiseres. Feilen som har oppstått kan føre til utfordringer ved geometrisk prosessering. De fleste GIS-programmer har funksjonalitet for å reparere slike topologifeil, og brukere som ønsker å ta datasettet i bruk før en fullstendig rettet versjon er tilgjengelig, oppfordres til å benytte disse verktøyene. Vi beklager ulempen!
+
+- - -
+
+
+Datasettet bygger på eksisterende data fra det offentlige kartgrunnlaget (DOK), som viser arealressurs- og arealbruksdata, og innebærer ingen nykartlegging.  Kildedata som er brukt i denne versjonen var oppdatert per 01.01.2024. I tillegg til arealressurs- og arealbruksdata er det lagt inn økosysteminformasjon i henhold til Eurostats klassifikasjonssystem. Grunnkartet kan kobles med andre datakilder, som for eksempel arealplaner, og benyttes som grunnlag for ulike typer arealanalyser og arealregnskap. Les mer om datainnhold og metode under Prosesshistorie.
+
+
+Les mer om metode og bruk av Grunnkartet i rapporten "Grunnkart for bruk i arealregnskap" 
+(https://nibio.brage.unit.no/nibio-xmlui/handle/11250/3120510 )
+
+Alle endringer som er implementert i Testversjon 2 er samlet i rapporten (https://nibio.brage.unit.no/nibio-xmlui/handle/11250/3185743)
+
+Alle tilbakemeldinger til Testversjon 2 er samlet i rapporten, Nasjonalt grunnkart for arealanalyse, Testversjon 2 - Tilbakemeldinger og vurderinger. (https://www.kartverket.no/globalassets/forskning-og-utvikling/rapporter/nasjonalt-grunnkart-for-arealanalyse-testversjon-2-tilbakemeldinger-og-vurderinger.pdf)
+
+Alle tilbakemeldinger til Testversjon 1 er samlet i rapporten, Grunnkart for bruk i arealregnskap - Tilbakemeldinger, vurderinger og anbefalinger 
+(https://www.kartverket.no/globalassets/forskning-og-utvikling/rapporter/rapport-grunnkart-for-bruk-i-arealregnskap-tilbakemeldinger-vurderinger-og-anbefalinger-2.pdf).
 
 ### Formål
 
-Framstille den offisielle kommuneinndelingen.
+Nasjonalt grunnkart for arealanalyse er en sammenstilling av grunnleggende datasett som danner basis for ulike typer arealregnskap. Formålet er å tilrettelegge data for kommunal og regional forvaltning, slik at blant annet kostnadskrevende dobbeltarbeid unngås. Et felles kartgrunnlag gjør det også enklere å sammenligne arealregnskap på tvers av sektorer. Dette gir kommuner og fylker, sammen med rådgivende firmaer, mulighet til å fokusere på å tilrettelegge supplerende temadata for å lage sektorspesifikke regnskap.
 
 ## Spesifikasjonsomfang
 
@@ -94,21 +121,21 @@ Framstille den offisielle kommuneinndelingen.
 
 **Utstrekning**:
 
-- **romlig**: - **romlig omfang**: National
-- **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
+- **tidsmessig**: - **intervall**: - 2024-02-13, 2025-06-30
 
 **Juridiske begrensninger**:
 
-- **Bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
-- **Tilgangsbegrensninger**: Åpne data
+- **Tilgangsbegrensninger**: Norge digitalt begrenset
 - **Bruksbegrensninger**: Lisens
-- **Lisens**: Creative Commons BY 4.0 (CC BY 4.0)
-- **Lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
-- **Sikkerhetsbegrensninger**: Ugradert
+- **Lisens**: No conditions apply to access and use
+- **Lisenslenke**: <http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply>
 
 ## Innhold og struktur
 
-**Bruk**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**Bruk**:
+Grunnkartet kan testes som grunnlag for etablering av arealregnskap, og kan suppleres med spesifikke data tilpasset ulike regnskapsformål, slik som kommuneplaner, miljødata eller jordegenskaper. 
+
+Kommunal- og distriktsdepartementet (KDD) publiserte i 2023 en veileder for arealregnskap i kommunene, som gir oversikt over relevante datakilder og metoder. Når en endelig årsversjon av Grunnkartet er klart til drift, vil det kunne supplere og delvis erstatte datakildene som er nevnt i denne veilederen. For andre typer arealregnskap må det utvikles egne metoder med tilhørende veiledere.
 
 ### Datamodell
 
@@ -1699,9 +1726,6 @@ Egenskaper
 - **kode**: EPSG:25835
   **navn**: EUREF89 UTM sone 35, 2d
 
-- **kode**: EPSG:3035
-  **navn**: EUREF89 / ETRS89-LAEA Europe
-
 - **kode**: EPSG:4258
   **navn**: EUREF 89 Geografisk (ETRS 89) 2d
 
@@ -1714,33 +1738,27 @@ Egenskaper
 
 **Nivå**: dataset
 
-- **navn**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
-  **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
-
-- **navn**: SOSI produktspesifikasjon: Administrative enheter Norge
-  **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
-
-- **navn**: Sosi applikasjonsskjema
-  **Måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
-
-- **navn**: Sosi applikasjonsskjema
-  **Måleparameter**: GML-filer er i henhold til applikasjonsskjema
-
-- **navn**: Prosentvis dekning i forhold til datasettets utstrekning
-  **Måleparameter**: Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning
-  **Resultat**: 100
-
 - **navn**: Prosentvis oppfyllelse av FAIR-prinsipper
   **Måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
-  **Resultat**: 96
+  **Resultat**: 81
 
 - **navn**: FAIR
-  **Resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
+  **Resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 81%
 
-- **navn**: Coverage
-  **Resultat**: Prosentvis dekning i forhold til datasettets utstrekning: 100%
+**Beskrivelse**:
+Grunnkartet kan lastes ned kommunevis for Norge digitalt-parter. WMS-tjenesten er åpen og kan benyttes for innsyn av alle.
 
-**Beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
+Vi vil veldig gjerne høre hva du mener om Testversjon 2 av Grunnkartet - send oss gjerne en e-post eller svar oss i dette spørreskjemaet - <https://forms.office.com/Pages/ResponsePage.aspx?id=6eKZ-ahaf0aeyt8NbE6vE9YlvYB1IthLrr-5sMvrbzxUMDU0QlU0VkVaSE1BSTJCRDRFWkgwQjJDWC4u>
+
+Alle samarbeidspartene i prosjektet kan kontaktes ved tilbakemeldinger og/eller spørsmål. 
+
+For generelle spørsmål og spørsmål til metode: gisdrift@nibio.no
+
+For spørsmål knyttet til Arealbruk: margrete.steinnes@ssb.no
+
+For spørsmål knyttet til Arealdekke: gisdrift@nibio.no
+
+For spørsmål knyttet til Økosystemtype: ellen.arneberg@miljodir.no
 
 ## Datafangst
 
@@ -1748,16 +1766,19 @@ Egenskaper
 
 ## Datavedlikehold
 
-**Vedlikeholdsfrekvens**: Etter behov
+**Vedlikeholdsfrekvens**: Årlig
 
-**Vedlikeholdsnotat**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**Vedlikeholdsnotat**:
+Grunnkartet kan testes som grunnlag for etablering av arealregnskap, og kan suppleres med spesifikke data tilpasset ulike regnskapsformål, slik som kommuneplaner, miljødata eller jordegenskaper. 
 
-**Status**: Kontinuerlig oppdatert
+Kommunal- og distriktsdepartementet (KDD) publiserte i 2023 en veileder for arealregnskap i kommunene, som gir oversikt over relevante datakilder og metoder. Når en endelig årsversjon av Grunnkartet er klart til drift, vil det kunne supplere og delvis erstatte datakildene som er nevnt i denne veilederen. For andre typer arealregnskap må det utvikles egne metoder med tilhørende veiledere.
+
+**Status**: Under arbeid
 
 ## Presentasjon
 
 **Tegnforklaring**:
-<https://register.geonorge.no/tegneregler/administrative-enheter-norge>
+<https://register.geonorge.no/tegneregler/grunnkart-for-arealregnskap-testversjon-2>
 
 ## Leveranse
 
@@ -1776,11 +1797,11 @@ Egenskaper
   - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
   - **protokoll**: GEONORGE:DOWNLOAD
 
-- **tittel**: Administrative enheter WMS
-  **format**: - **format**: png
+- **tittel**: Nasjonalt grunnkart for arealanalyse (Testversjon 2) WMS
+  **format**: - **format**: OGC WMS
   **tilgang**:
 
-  - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
+  - **lenke**: <https://wms.nibio.no/cgi-bin/arealregnskap_grunnkart?service=WMS&request=GetCapabilities>
   - **protokoll**: WMS-tjeneste
   - **Lisens**: Åpne data
   **Notater**: Tjeneste
@@ -1797,14 +1818,14 @@ Egenskaper
 
 **Kontaktpunkt**:
 
-- **organisasjon**: Kartverket
+- **organisasjon**: Norsk institutt for bioøkonomi
 - **epost**: post@kartverket.no
 - **rolle**: pointOfContact
 
 **Identifikatorer**:
 
 - **Utsteder**: geonorge
-  **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
+  **kode**: 28c28e3a-d88f-4a34-8c60-5efe6d56a44d
 
 **Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
+<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=28c28e3a-d88f-4a34-8c60-5efe6d56a44d>
