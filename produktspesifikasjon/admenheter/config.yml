@@ -1,5 +1,5 @@
 metadataId: 28c28e3a-d88f-4a34-8c60-5efe6d56a44d
-ogc_feature_api: 
+ogc_feature_api: https://kos-pygeoapi.atkv3-dev.kartverket.cloud/collections
 output_directory: produktspesifikasjon
 product_slug: arealanalyse2
 updated: 2025-11-26
